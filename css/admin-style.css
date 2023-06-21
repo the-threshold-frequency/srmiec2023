@@ -1,0 +1,110 @@
+html,
+body {
+  background: #dbdbdb;
+  /* overflow-x: hidden; */
+}
+.navbar {
+  transition: 0.7s ease;
+  box-shadow: 0 7px 12px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.32) !important;
+}
+
+.section-content {
+  text-align: center;
+  padding: 0;
+  padding-top: 110px;
+  padding-bottom: 180px;
+}
+
+/* IEC TEXT REVEAL */
+.animated-effect-heading {
+  --bg-color: #dbdbdb;
+  color: rgba(81, 75, 158, 1);
+  margin-bottom: 40px;
+}
+.animated-effect-heading span {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  line-height: 1.2;
+}
+.animated-effect-heading span:nth-child(1) {
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+.text-animation::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(81, 75, 158, 1);
+  animation: a-ltr-after 2s cubic-bezier(0.77, 0, 0.18, 1) forwards;
+  transform: translateX(-101%);
+}
+.text-animation::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color);
+  animation: a-ltr-before 2s cubic-bezier(0.77, 0, 0.18, 1) forwards;
+  transform: translateX(0);
+}
+.animated-effect-heading span:nth-of-type(1)::before,
+.animated-effect-heading span:nth-of-type(1)::after {
+  animation-delay: 1s;
+}
+.animated-effect-heading span:nth-of-type(2)::before,
+.animated-effect-heading span:nth-of-type(2)::after {
+  animation-delay: 1.5s;
+}
+@keyframes a-ltr-after {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(101%);
+  }
+}
+@keyframes a-ltr-before {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+/* Specific */
+
+.info-cont {
+  background-color: white;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid gray;
+  height: 100%;
+  width: auto;
+}
+.info-cont h5 {
+  text-transform: uppercase;
+  text-align: center;
+  color: gray;
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 17px;
+}
+.info-cont p {
+  font-size: 40px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.info-cont i {
+  font-size: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}

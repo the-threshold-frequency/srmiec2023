@@ -1,1 +1,1 @@
-# srmiec2023
+# SRMIEC'23 Website
