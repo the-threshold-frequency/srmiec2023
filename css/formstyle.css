@@ -1,0 +1,100 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/941/847/original/cosmetic-background-for-product-branding-and-packaging-presentation-geometry-form-circle-molding-on-podium-stage-with-shadow-of-leaf-background-design-eps10-vector.jpg");
+    
+    padding: 0;
+    margin: 0;
+    
+
+}
+.sample-header {
+    text-align: center;
+    background-image: url("https://i0.wp.com/new.iimun.in/blog/wp-content/uploads/2021/01/blog_21_unlogogold1.jpg?fit=580%2C250&ssl=1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+section{
+    background-color: #d4decc;
+    width: 35%;
+    margin: 40px auto;
+    border-radius: 4px;
+    border: 5px solid white;
+}
+
+article div{
+    font-family: 'Raleway', sans-serif;
+    padding-bottom:20px;
+}
+article label{
+    margin-left: 40px;
+    color: rgb(0,0,22);
+}
+article input{
+    width: 85%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 40px;
+    box-sizing: none;
+    background: rgb(24, 93, 70);
+    border: none;
+    font-size: medium;
+    border-bottom: 1px solid rgb(1, 1, 51);
+}
+
+::placeholder{
+    color: rgb(92,140,180);
+}
+
+article h1{
+    padding-top: 5px;
+    font-size: 25px;
+    text-align: centre;
+}
+article sup{
+    color: red;
+}
+
+article #male{
+    width: 15px;
+}
+article .man{
+    margin-left: 0;
+    font-family: 'Raleway', sans-serif;
+}
+article #female{
+    width: 15px;
+    margin-left: 0;
+}
+
+article .woman{
+    margin-left: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+article.radio{
+    padding-bottom: 30px;
+}
+article #checkbox{
+    width: 15px;
+}
+article .checkbox{
+    margin-left: 0;
+    color: rgb(1,1,51);        
+    font-family: 'Raleway', sans-serif;
+}
+
+article .AD{
+    margin: 40px 40px 15px 40px;
+    padding-bottom: 30px;
+}
+
+article.button{
+    padding: 15px 195px 15px 205px;
+    border: none;
+    border-radius: 4px;
+    background:  rgb(92,140,180);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
