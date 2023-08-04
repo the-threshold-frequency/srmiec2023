@@ -1,0 +1,353 @@
+Reset some default styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #138698;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Banner styles */
+.banner {
+  background-color: #138698;
+  color: white;
+  padding: 40px;
+}
+
+.banner h1 {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+/* Center content styles */
+.center-content {
+  text-align: center;
+  padding: 40px;
+}
+
+.committee-heading {
+  font-family: Raleway, sans-serif;
+  font-size: 84px;
+  font-weight: 700;
+}
+
+.committee-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.committee-images img {
+  margin: 10px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-logos img {
+  width: 164px;
+  height: 61px;
+  flex-shrink: 0;
+}
+
+.footer-note {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.social-links a {
+  margin-right: 10px;
+}
+
+.quick-links {
+  margin-top: auto;
+}
+
+.quick-links table {
+  font-size: 14px;
+}
+
+.quick-links td {
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-logos {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.footer-logos img {
+  max-width: 100px;
+}
+
+.footer-note {
+  font-size: 14px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contacts-table th,
+.contacts-table td {
+  border: 1px solid #ffffff;
+  padding: 8px;
+  text-align: left;
+}
+
+.quick-links h3 {
+  margin-top: 0;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-logos {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.footer-logos img {
+  max-width: 100px;
+}
+
+.footer-note {
+  font-size: 14px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.quick-links {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-20px, 20px); /* Add some spacing from the edges */
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2); /* White shadow */
+}
+
+.contacts-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contacts-table th,
+.contacts-table td {
+  border: 1px solid #ffffff;
+  padding: 8px;
+  text-align: left;
+}
+
+.quick-links h3 {
+  margin-top: 0;
+}
+/* Existing styles */
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.zig-zag {
+  max-width: calc(50% - 10px); /* Adjust the width as needed */
+  margin: 10px 0;
+  transform-origin: bottom; /* Set the transformation origin to the bottom */
+  transform: rotate(-3deg) translateY(10px); /* Apply rotation and translation */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.zig-zag:hover {
+  transform: rotate(0) translateY(0); /* Reset transformation on hover */
+}
+/* Existing styles */
+
+.sec-gen {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.sec-gen-image {
+  max-width: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.sec-gen-description {
+  flex: 1;
+}
+
+.sec-gen-description h3 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.sec-gen-description p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Rest of the CSS styles */
+/* Existing styles */
+
+.secretary-content {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.secretary-content h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.secretary-quote {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.secretary-quote p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Rest of the CSS styles */
+/* Existing styles */
+
+.sec-gen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  flex-wrap: wrap-reverse;
+}
+
+.sec-gen-image {
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.sec-gen-description {
+  flex: 1;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sec-gen-title {
+  margin: 0;
+  font-size: 28px;
+}
+
+.sec-gen-text {
+  font-size: 16px;
+  color: #666;
+}
+
+.committees-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
