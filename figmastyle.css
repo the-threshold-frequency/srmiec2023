@@ -1,0 +1,53 @@
+.img{
+    width: 75.526px;
+height: 75.526px;
+transform: rotate(-118.451deg);
+flex-shrink: 0;
+}
+fill    
+.home{
+    color: #53CBE5;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.about{
+    color: #53CBE5;
+text-align: center;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.Committees{
+    color: #53CBE5;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.Team{
+    color: #53CBE5;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.Contact{
+    color: #53CBE5;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
